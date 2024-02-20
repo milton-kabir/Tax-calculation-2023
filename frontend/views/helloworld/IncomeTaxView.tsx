@@ -10,7 +10,7 @@ export default function IncomeTaxView() {
   return (
     <>
         <section className="flex p-m gap-m items-end">
-            <div>Currently this income tax is calculated for Men without minimum tax
+            <div>Currently this income tax is calculated for a male living in Dhaka city
             </div>
         </section>
       <section className="flex p-m gap-m items-end">
@@ -29,7 +29,7 @@ export default function IncomeTaxView() {
           Calculate
         </Button>
           {tax !== -1 && (
-              <p>Your tax is {tax}</p>
+              <p>Your total tax is {tax}</p>
           )}
       </section>
     </>
